@@ -26,4 +26,4 @@ echo "# ref='$ref'"
 echo "# begin='$begin'"
 echo "# end='$end'"
 
-/usr/bin/find "$dir" -newermt "$begin" ! -newermt "$end" -ls
+/usr/bin/find \"$dir\" -newermt \"$begin\" ! -newermt \"$end\" -ls
